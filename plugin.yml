@@ -1,0 +1,20 @@
+name: Districts
+main: com.panem_mc.districts.Districts
+version: 0.0.2
+
+commands:
+   setdistrict:
+      description: This command sets the District of the selected player
+      usage: /<command> [Player] [District]
+      permission: <plugin name>.setdistrict
+      permission-message: You don't have <permission>
+   selectdistrict:
+         description: This command selects your district
+         usage: /<command> [District]
+         permission: <plugin name>.selectdistrict
+         permission-message: You don't have <permission>
+   districts:
+            description: Info about the plugin
+            usage: /<command> [help, commands]
+            permission: <plugin name>.districts
+            permission-message: You don't have <permission>
